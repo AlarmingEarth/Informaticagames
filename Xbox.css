@@ -1,0 +1,351 @@
+
+
+body{
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 1%,rgba(67,67,67,1) 46%,rgba(0,0,0,1) 100%);
+}
+
+
+
+
+
+/*nav*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, #111113 1%,#564556 50%,#4f6493 100%);
+    position: relative;
+
+}
+
+li {
+    float: left;
+    position: relative;
+}
+
+
+lia {
+    float: right;
+    position: relative;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+lia a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+li a:hover {
+    background-color: rgba(112, 122, 230, 0.68);
+    position: relative;
+    border-radius: 5px;
+}
+
+
+lia a:hover {
+    background-color: rgba(112, 122, 230, 0.68);
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+
+/*Einde*/
+
+
+
+h1{
+  font-size: 80px;
+}
+
+
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
+}
+
+.achtergrond{
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, #111113 1%,#564556 50%,#000000 100%);
+}
+
+.achtergrond img{
+  outline-color: 0px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#section-a{
+  background-color: #c9dcdd;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+xb{
+  font-family: Xbox;
+  color: #0F7C10;
+}
+
+h1{
+  color: #0F7C10;
+}
+
+p1{
+  font-size: 19px;
+  color: #D4DAE1;
+}
+
+
+#Home{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+ol .c {
+    list-style-type: upper-roman;
+}
+
+
+#PS4{
+  padding:20px;
+  color:#ffffff;
+  text-align:center;
+  font-family: PS4;
+  font-size: 60px;
+  z-index: 12;
+}
+
+ps{
+  font-family: ConsoleWars;
+  font-size: 54px;
+  color: white;
+}
+
+cs{
+  font-family: ConsoleWars;
+  font-size: 54px;
+  background: -webkit-linear-gradient(left, rgba(28,29,34,1) 1%,rgba(38,43,39,1) 48%,rgba(54,57,66,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  outline: none;
+}
+
+
+
+
+ps{
+  padding:20px;
+  color:#ffffff;
+  text-align:center;
+  font-family: PS4;
+  font-size: 60px;
+  z-index: 12;
+}
+
+
+psf{
+  color:#ffffff;
+  font-family: PS4;
+  font-size: 37px;
+}
+
+sw{
+  font-family: Gaming;
+  font-size: 90px;
+  color: #107C10
+}
+
+
+sw2{
+  font-family: Gaming;
+  font-size: 190px;
+  background: -webkit-linear-gradient(top, rgba(0,136,198,1) 0%,rgba(19,70,96,1) 48%,rgba(4,5,9,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info{
+  font-size: 17px;
+}
+
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+  z-index: 12;
+}
+
+#section-c{
+  display:flex;
+  z-index: 13;
+}
+
+#section-c div{
+  padding:20px;
+  z-index: 12;
+}
+
+.box-3{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:#926239;
+  font-family: cursive;
+  color:#fff;
+  z-index: 12;
+}
+
+#section-c .box-2{
+  background:#f9f9f9;
+  z-index: 12;
+}
+
+
+
+
+/*fonts*/
+
+
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: MrDeHaviland;
+    src: url(Fonts/MrDeHaviland-Regular.ttf);
+}
+
+div {
+    font-family: MrDeHaviland;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: PathwayGothicOne;
+    src: url(Fonts/PathwayGothicOne-Regular.ttf);
+}
+
+div {
+    font-family: PathwayGothicOne;
+}
+
+
+
+@font-face {
+    font-family: Propaganda;
+    src: url(Fonts/PROPAGAN.ttf);
+}
+
+div {
+    font-family: Propaganda;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Manus;
+    src: url(Fonts/MyfrideRegular.otf);
+}
+
+div {
+    font-family: Manus;
+}
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: PS4;
+    src: url(Fonts/ps4.ttf);
+}
+
+div {
+    font-family: PS4;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: DKW;
+    src: url(Fonts/DKW.TTF);
+}
+
+div {
+    font-family: DKW;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: ConsoleWars;
+    src: url(Fonts/ConsoleWars.ttf);
+}
+
+div {
+    font-family: ConsoleWars;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Gaming;
+    src: url(Fonts/GamingLogos.ttf);
+}
+
+div {
+    font-family: Gaming;
+}
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Xbox;
+    src: url(Fonts/X360.ttf);
+}
+
+div {
+    font-family: Xbox;
+}
