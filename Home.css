@@ -272,13 +272,13 @@ p3{
 
 #section-c{
   display:flex;
+  text-align: center;
   z-index: 13;
   font-family: VarelaRoundRegular;
 }
 
-#section-c div{
-  padding:20px;
-  z-index: 12;
+p{
+  text-align: center;
 }
 
 .box-3{
