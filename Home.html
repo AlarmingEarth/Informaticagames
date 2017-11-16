@@ -34,8 +34,18 @@
 
   <header class="v-header container">
       <div class="fullscreen-video-wrap">
-        <video src="Images/achtergrond2.webm" type="video/webm" autoplay="" loop="">
+        <video id="video1" src="Images/achtergrond2.webm" type="video/webm" autoplay="" loop="">
+          <script type="text/javascript">
+              $(document).ready(function() {
+              $("#video1").bind("click", function() {
+              var vid = $(this).get(0);
+              if (vid.paused) { vid.play(); }
+              else { vid.pause(); }
+              });
+          });
+          </script>
       </video>
+
       </div>
 
 <ul>
