@@ -165,7 +165,12 @@ mr{
 #Informatie{
   text-align: center;
   font-size: 21px;
+  color: black;
   font-family: VarelaRoundRegular;
+  background-image: url(Images/PC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -187,38 +192,6 @@ ps{
   font-size: 17px;
 }
 
-#section-b{
-  padding:20px;
-  background:#f4f4f4;
-  text-align:center;
-  z-index: 12;
-}
-
-#section-c{
-  display:flex;
-  z-index: 13;
-}
-
-#section-c div{
-  padding:20px;
-  z-index: 12;
-}
-
-.box-3{
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-#section-c .box-1, #section-c .box-3{
-  background:#926239;
-  font-family: cursive;
-  color:#fff;
-  z-index: 12;
-}
-
-#section-c .box-2{
-  background:#f9f9f9;
-  z-index: 12;
-}
 
 
 
