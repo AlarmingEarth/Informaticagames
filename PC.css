@@ -143,13 +143,6 @@ body{
   max-width: 100%;
 }
 
-#section-a{
-  background-color: #c9dcdd;
-  border-left: 3px solid blue;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
 
 
 #PS4{
@@ -172,6 +165,7 @@ mr{
 #Informatie{
   text-align: center;
   font-size: 21px;
+  font-family: VarelaRoundRegular;
 }
 
 
@@ -328,4 +322,15 @@ div {
 
 div {
     font-family: Games;
+}
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
 }
