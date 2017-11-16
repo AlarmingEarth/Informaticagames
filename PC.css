@@ -113,6 +113,9 @@ lia a:hover {
 
 
 
+
+
+
 /*Einde*/
 
 
@@ -170,7 +173,7 @@ mr{
   background-image: url(Images/PC.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 
