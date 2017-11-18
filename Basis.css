@@ -62,3 +62,15 @@ pfooter{
 div {
     font-family: Baloo;
 }
+
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
+}
