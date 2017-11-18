@@ -2,3 +2,5 @@
 *.pdn
 *.db
 *.db
+Images/Thumbs.db
+*.db
