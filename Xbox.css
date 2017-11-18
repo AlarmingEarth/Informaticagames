@@ -132,6 +132,11 @@ p1{
   background: linear-gradient(to bottom, #ffffff 0%,#cbf0f2 99%);
 }
 
+
+#Leeg2{
+  background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
+}
+
 /*Fotos*/
 
 .SS1 img{
