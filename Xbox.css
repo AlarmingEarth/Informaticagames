@@ -364,7 +364,7 @@ div {
 
 @font-face {
     font-family: VarelaRoundRegular;
-    src: url(Fonts\VarelaRoundRegular.ttf);
+    src: url(Fonts/VarelaRoundRegular.ttf);
 }
 
 div {
