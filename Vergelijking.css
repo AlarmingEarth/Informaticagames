@@ -180,12 +180,12 @@ body{
 
 h{
   font-family: MrDeHaviland;
-  color: #e80000;
+  color: Black;
   font-style: cursive;
   font-synthesis: weight;
   padding-bottom: 0px;
   margin: 1px;
-  text-shadow: 0px 4px Black;
+  text-shadow: 0px 4px #cceae3;
   z-index: 1;
   font-size: 90px;
 }
