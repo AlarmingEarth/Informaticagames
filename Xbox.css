@@ -126,6 +126,8 @@ p1{
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
+  font-family: VarelaRoundRegular;
+  font-size: 20px;
 }
 
 #Leeg{
@@ -356,4 +358,15 @@ div {
 
 div {
     font-family: Xbox;
+}
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
 }
