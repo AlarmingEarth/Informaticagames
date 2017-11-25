@@ -148,6 +148,10 @@ body{
   position: absolute;
   display:inline;
   margin: 0 auto;
+  background-image: url(https://netdna.webdesignerdepot.com/uploads/2013/07/icons-animation.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stopfade {
