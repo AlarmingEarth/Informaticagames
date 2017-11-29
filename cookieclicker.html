@@ -2,10 +2,9 @@
 <!DOCTYPE html>
 <html>
 <style>
-<title>Bitcoin Miner</title>
 
 
- 
+
 .cookie{
 position: relative;
 top: 0px;
@@ -13,7 +12,7 @@ left: 0px;
 top: 0px;
 width: 150px;
 height: 150px;
-background-image: url("https://pngimg.com/uploads/bitcoin/bitcoin_PNG11.png");
+background-image: url("http://icons.iconarchive.com/icons/paomedia/small-n-flat/512/bitcoin-icon.png");
 border: none;
 background-size: cover;
 }
@@ -31,6 +30,11 @@ background-color: #15bac8;
 
 
 
+
+
+
+
+
 .Upgrade{
 
 
@@ -42,10 +46,10 @@ background-size:contain;
 }
 
 body{
- background-image: url("https://airbitz.co/media/business_images/bitcoin-blue-background.png");
+background-image: url("https://airbitz.co/media/business_images/bitcoin-blue-background.png");
 background-size: cover;
-background-repeat: none;
 background-position: center;
+background-repeat: none;
 }
 </style>
 
@@ -68,7 +72,7 @@ background-position: center;
 <br>
 <br>
 <p><font size="6">score:
-<p id="score">0 $</p></font></p>
+<p id="score">0&#127850;</p></font></p>
 <br>
 <br>
 <br>
@@ -83,6 +87,8 @@ onclick="myautoclickUpgrade()">
 </button><br>Upgrade Autoclick<br>
 
 <script>
+var a = location.href;
+if (a == 'https://lucasdeman.github.io/cookieclicker'){
 
 var links = -6;
 var omhoog = 0;
@@ -178,7 +184,7 @@ document.getElementById("score").innerHTML = "<font size='6'>" + myscore + "&#12
 
 
 
-
+}
 </script>
 </center>
 </body>
