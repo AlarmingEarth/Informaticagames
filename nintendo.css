@@ -12,7 +12,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to right, rgba(98,205,247,1) 0%,rgba(255,95,83,1) 46%,rgba(88,90,102,1) 91%,rgba(36,33,38,1) 100%);
+    background: linear-gradient(to right, #00b0cc 12%,#ff3728 83%);
     position: relative;
 
 }
