@@ -242,6 +242,14 @@ sw{
 
 }
 
+video {
+    width: 70%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 5px;
+    max-width: 70%
+}
+
 /*fonts*/
 
 
