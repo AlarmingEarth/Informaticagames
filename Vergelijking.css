@@ -162,8 +162,10 @@ body{
   font-size: 60px;
   z-index: 12;
   margin: 0;
+  font-family: NunitoRegular;
 
 }
+
 
 /*Einde*/
 
@@ -235,4 +237,14 @@ div {
 
 div {
     font-family: NunitoRegular;
+}
+
+
+@font-face {
+    font-family: AcmeRegular;
+    src: url(Fonts/AcmeRegular.ttf);
+}
+
+div {
+    font-family: AcmeRegular;
 }
