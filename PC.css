@@ -247,6 +247,21 @@ video {
   display: block;
 }
 
+#kopen{
+  background-image: url(Images/Portal_Kopen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: VarelaRoundRegular;
+  color: white;
+  font-size: 21px;
+  margin: auto
+}
+#kopen h{
+  color: #0198a5;
+}
+
 /*Fotos*/
 
 .SS1 img{
