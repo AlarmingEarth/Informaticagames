@@ -89,14 +89,53 @@ lia a:hover {
 
 input{
   border-radius: 5px;
-  border: 2px solid #003791;
+  border: 2px solid #bda0ff;
   text-align: center;
 }
 
 textarea{
   overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid #bda0ff;
+  text-align: center;
 }
 
+#Leeg{
+  background: linear-gradient(to bottom, #ffffff 0%,#cbf0f2 99%);
+}
+
+#form{
+  background-color: #cbf0f2;
+}
+
+#Leeg2{
+  background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
+}
+button{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+
+button:hover{
+background-color: #a4d151;
+cursor: pointer;
+border: none;
+color: white;
+padding: 15px 32px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
 
 body{
   margin:0;
