@@ -219,6 +219,34 @@ h{
   background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
 }
 
+video {
+    width: 70%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 5px;
+    max-width: 70%
+}
+
+.kopen{
+  position: relative;
+     padding-bottom: 26.25%;
+     padding-top: 35px;
+     height: 0;
+     overflow: hidden;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+     text-align: center;
+}
+
+.kopen iframe{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /*Fotos*/
 
 .SS1 img{
