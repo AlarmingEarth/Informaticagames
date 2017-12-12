@@ -80,11 +80,13 @@ lia a:hover {
   text-align: center;
   color: black;
   margin: auto;
+  font-family: VarelaRoundRegular;
 }
 
 #form button{
   background-color: none;
   text-align: center;
+  font-family: VarelaRoundRegular;
 }
 
 input{
