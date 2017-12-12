@@ -34,6 +34,7 @@
   <title style="Black" > Informatica | Contact </title>
   <link rel="stylesheet" type="text/css" href="Contact.css">
   <link rel="stylesheet" type="text/css" href="Basis.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 
@@ -96,11 +97,11 @@
   </form>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<script>
-  function onSubmit(token) {
-    document.getElementById("invisible-recaptcha-form").submit();
-  }
-</script>
+  <form>
+    <div class="g-recaptcha" data-sitekey="6LeuxTwUAAAAAOYomWvzQATk9TmF6KMc63OuzvNx"></div>
+
+    <input type="submit" value="Submit">
+  </form>
 
   </section>
 
