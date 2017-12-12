@@ -197,8 +197,38 @@ ps{
   font-size: 17px;
 }
 
+h{
+  color: black;
+  background-color: none;
+  font-size: 70px;
+}
+#info{
+  background-color: #cbf0f2;
+  text-align: center;
+  font-family: VarelaRoundRegular;
+  color: black;
+  font-size: 21px;
+}
+
+#Leeg{
+  background: linear-gradient(to bottom, #ffffff 0%,#cbf0f2 99%);
+}
 
 
+#Leeg2{
+  background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
+}
+
+/*Fotos*/
+
+.SS1 img{
+  max-width: 50%;
+  max-height: 50%;
+  text-align:left;
+  border: 4px solid white;
+  border-radius: 4px;
+
+}
 
 
 /*fonts*/
