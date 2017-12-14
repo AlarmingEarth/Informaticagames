@@ -78,22 +78,52 @@ lia a:hover {
 
 #form{
   text-align: center;
+  display: block;
   color: black;
-  margin: auto;
   font-family: VarelaRoundRegular;
+  background-color: #d9fcfc;
+  text-align: left;
 }
 
-#form button{
-  background-color: none;
-  text-align: center;
-  font-family: VarelaRoundRegular;
+input[type=text], input[type=email]{
+  width: 25%
 }
+
+input {
+  font-size: 15px;
+  height: 10px;
+  padding: 7.5px;
+}
+
+textarea{
+  font-size: 15px;
+  height: 30%;
+  width: 20%;
+  margin-top: 10px;
+  display: flex;
+}
+
 
 input{
   border-radius: 5px;
   border: 2px solid #bda0ff;
+  text-align: left;
+}
+
+.wrapper{
   text-align: center;
 }
+
+#formwit{
+  background-color: #d9fcfc;
+
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+
 
 textarea{
   overflow: hidden;
@@ -106,15 +136,12 @@ textarea{
   background: linear-gradient(to bottom, #ffffff 0%,#cbf0f2 99%);
 }
 
-#form{
-  background-color: #cbf0f2;
-}
 
 #Leeg2{
   background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
 }
 button{
-background-color: #4CAF50;
+background-color: #f9772b;
 border: none;
 color: white;
 padding: 15px 32px;
@@ -127,7 +154,7 @@ font-size: 16px;
 
 
 button:hover{
-background-color: #a4d151;
+background-color: #f9542b;
 cursor: pointer;
 border: none;
 color: white;
@@ -197,9 +224,6 @@ body{
 }
 
 
-pc{
-  font-family: VarelaRoundRegular;
-}
 
 
 
