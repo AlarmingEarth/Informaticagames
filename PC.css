@@ -74,6 +74,7 @@ pfooter{
 nav{
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 nav ul{
@@ -117,7 +118,7 @@ nav ul li a{
 
 nav ul li a:hover{
   text-decoration: none;
-  color: yellow;
+  color: blue;
   font-style: bold;
   font-size: 20px;
 }
@@ -135,7 +136,7 @@ display: none;
 
 
 
-@media(max-width: 580px){
+@media(max-width: 1190px){
   .logo{
     position: fixed;
     top: 0;
@@ -151,7 +152,7 @@ display: none;
     background: #000;
   }
 .showing{
-  max-height: 20em;
+  max-height: 40em;
 }
 
 nav ul li{
@@ -161,6 +162,8 @@ nav ul li{
   text-align: center;
 }
 
+
+
 .menu-icon{
   display: block;
 }
@@ -168,7 +171,6 @@ nav ul li{
 }
 
 /*Einde*/
-
 
 
 
