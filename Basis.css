@@ -55,6 +55,15 @@ pfooter{
 
 /*Volgende*/
 @font-face {
+    font-family: Quicksand;
+    src: url(Fonts/Quicksand-Light.ttf);
+}
+
+div {
+    font-family: Quicksand;
+}
+
+@font-face {
     font-family: Baloo;
     src: url(Fonts/BalooChettanRegular.ttf);
 }
