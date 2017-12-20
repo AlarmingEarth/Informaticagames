@@ -4,66 +4,118 @@
 }
 
 
+.achtergrond{
+  z-index: -10;
+}
+
+
 /*nav*/
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(to right, rgba(98,205,247,1) 0%,rgba(255,95,83,1) 46%,rgba(88,90,102,1) 91%,rgba(36,33,38,1) 100%);
-    position: relative;
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
 
 }
 
-li {
-    float: left;
-    position: relative;
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
 }
 
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
 
-lia {
-    float: right;
-    position: relative;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: VarelaRoundRegular;
-    font-weight: bold;
-    position: relative;
+nav ul li{
+  display: inline-block;
+  padding: 20px;
 }
 
-
-lia a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    position: relative;
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-li a:hover {
-    background-color: rgba(112, 122, 230, 0.68);
-    position: relative;
-    border-radius: 5px;
+nav ul li a:hover{
+  text-decoration: none;
+  color: yellow;
+  font-style: bold;
+  font-size: 20px;
 }
 
-
-lia a:hover {
-    background-color: rgba(112, 122, 230, 0.68);
-    position: relative;
-    border-radius: 5px;
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
 }
 
 
 
+@media(max-width: 580px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 20em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.menu-icon{
+  display: block;
+}
+
+}
 
 /*Einde*/
 

@@ -32,23 +32,42 @@
    <title> Informatica | 404 </title>
    <link rel="stylesheet" type="text/css" href="404.css"
    <link rel="stylesheet" type="text/css" href="Basis.css"
+   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+   <script defer src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
    <div class="wrapper"></div>
 
  </head>
 
+<body>
 
+  <div class="wrapper2">
+  <header>
+    <nav>
+      <div class="menu-icon">
+  <i class="fa fa-bars fa-2x"></i>
+      </div>
 
- <ul>
-   <li><a href="https://www.informaticagames.ml/Home">Home</a></li>
-   <li><a href="https://www.informaticagames.ml/PS">PS4</a></li>
-   <li><a href="https://www.informaticagames.ml/Xbox">Xbox</a></li>
-   <li><a href="https://www.informaticagames.ml/Switch">Switch</a></li>
-   <li><a href="https://www.informaticagames.ml/PC">PC</a></li>
-   <li><a href="https://www.informaticagames.ml/Vergelijking">Vergelijking</a></li>
-   <li><a href="https://www.informaticagames.ml/BR">Battle Royale</a></li>
+      <div class="logo">
+  Informatica Games
+      </div>
+      <div class="menu">
+  <ul>
+    <li><a href="Home">Home</a></li>
+    <li><a href="PS">PS4</a></li>
+    <li><a href="Xbox">Xbox</a></li>
+    <li><a href="Switch">Switch</a></li>
+    <li><a href="PC">PC</a></li>
+    <li><a href="Vergelijking">Vergelijking</a></li>
+    <li><a href="Contact">Contact</a></li>
 
+  </ul>
+      </div>
+  </header>
+  <div class="content">
 
- </ul>
+  </div>
 
 
  <h1 class="rainbow">404 Niet gevonden<h2></h2></h1>
@@ -61,6 +80,36 @@
 
  </audio>
 <p><br><br></p>
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+  $(".menu-icon").on("click", function() {
+    $("nav ul").toggleClass("showing");
+
+  });
+});
+
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 10) {
+    	$('nav').addClass('black');
+      $('nav').removeClass('text');
+      $('nav').addClass('textc');
+    }
+    else {
+    $('nav').removeClass('black');
+    $('nav').removeClass('textc');
+    $('nav').addClass('text');
+
+    }
+  });
+});
+
+</script>
 </body>
 <br><br>
 
