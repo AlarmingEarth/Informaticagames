@@ -40,37 +40,39 @@
 
  </head>
 
-<body>
+ <div class="wrapper2">
+ <header>
+   <nav>
+     <div class="menu-icon">
+ <i class="fa fa-bars fa-2x"></i>
+     </div>
 
-  <div class="wrapper2">
-  <header>
-    <nav>
-      <div class="menu-icon">
-  <i class="fa fa-bars fa-2x"></i>
-      </div>
+     <div class="logo">
+ Informatica Games
+     </div>
+     <div class="menu">
+ <ul>
+   <li><a href="Home">Home</a></li>
+   <li><a href="PS">PS4</a></li>
+   <li><a href="Xbox">Xbox</a></li>
+   <li><a href="Switch">Switch</a></li>
+   <li><a href="PC">PC</a></li>
+   <li><a href="Vergelijking">Vergelijking</a></li>
+   <li><a href="Contact">Contact</a></li>
 
-      <div class="logo">
-  Informatica Games
-      </div>
-      <div class="menu">
-  <ul>
-    <li><a href="Home">Home</a></li>
-    <li><a href="PS">PS4</a></li>
-    <li><a href="Xbox">Xbox</a></li>
-    <li><a href="Switch">Switch</a></li>
-    <li><a href="PC">PC</a></li>
-    <li><a href="Vergelijking">Vergelijking</a></li>
-    <li><a href="Contact">Contact</a></li>
+ </ul>
+     </div>
+ </header>
+ <div class="content">
 
-  </ul>
-      </div>
+ </div>
   </header>
   <div class="content">
 
   </div>
 
 
- <h1 class="rainbow">404 Niet gevonden<h2></h2></h1>
+ <br> <br> <br> <br> <br><h1 class="rainbow">404 Niet gevonden<h2></h2></h1>
  <h3></h3>
 
 
@@ -113,12 +115,14 @@ $(document).ready(function() {
 </body>
 <br><br>
 
- <footer>
-   <div class="footer">
-     <pfooter>Informatica Games 2017©</p></pfooter>
-   </div>
+<footer>
+        <div class="footer">
+          <pfooter>Informatica Games 2017©</pfooter><br>
+          <pfooter><a href="https://freewallet.org/id/jaap_nl/xdn">Klik hier om XDN te doneren.</a></pfooter>
+          <br><pfooter><a href="https://freewallet.org/id/jaap_nl/xdn">Andere coins doneren? Klik hier</a></pfooter>
+        </div>
 
- </footer>
+      </footer>
 
   <!-- Css  -->
 
@@ -208,47 +212,113 @@ body{
 
 }
 
-.active {
-    background-color: #4CAF50;
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(to right, #29ce29 0%,#2989d8 50%,#207cca 51%,#d183ef 77%,#6d3b4a 100%);
-    position: relative;
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
 
 }
 
-li {
-    float: left;
-    position: relative;
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: VarelaRoundRegular;
-    font-weight: bold;
-    position: relative;
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
+
 }
 
-li a:hover {
-    background-color: rgba(112, 122, 230, 0.68);
-    position: relative;
-    border-radius: 5px;
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
 }
 
 
-lia a:hover {
-    background-color: rgba(112, 122, 230, 0.68);
-    position: relative;
-    border-radius: 5px;
+
+@media(max-width: 1190px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 40em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+
+
+.menu-icon{
+  display: block;
+}
+
 }
 
 

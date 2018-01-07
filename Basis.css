@@ -27,15 +27,11 @@
 /*footer*/
 
 
-
 .footer{
-  position:relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
   text-align: center;
-  z-index: 100;
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
   background: linear-gradient(to right, rgba(4,148,244,1) 6%,rgba(16,234,27,1) 51%,rgba(255,99,102,1) 100%);
   font-family: 'Baloo Chettan', cursive;
 
@@ -46,6 +42,7 @@
 pfooter{
   font-family: Baloo;
   font-size: 20px;
+  text-align: center;
 }
 
 /*Einde*/
